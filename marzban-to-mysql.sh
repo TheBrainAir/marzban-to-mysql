@@ -159,7 +159,7 @@ ${no_color}"
 }
 
 check_server_os() {
-  if [ "$OS_NAME" == "Ubuntu" ] && [ "$OS_VERSION" == "22.04" ] || [ "$OS_VERSION" == "20.04" ]; then
+  if [ "$OS_NAME" == "Ubuntu" ] && { [ "$OS_VERSION" == "22.04" ] || [ "$OS_VERSION" == "20.04" ] || [ "$OS_VERSION" == "24.04" ]; }; then
     echo -e "${green}${T[101]}${OS_VERSION}${no_color}"
   else
     echo -e "${red}${T[000]} ${T[100]}${no_color}" && exit 1
