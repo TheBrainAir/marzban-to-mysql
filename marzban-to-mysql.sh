@@ -92,7 +92,7 @@ T[094]="Please check the database changes and if there is a problem you can use 
 T[095]="You can control your database in phpmyadmin by root user on port:"
 T[096]="8010"
 # check os
-T[100]="This script developed for 'ubuntu 22.04' and 'ubuntu 20.04'. please use Talka on these distros"
+T[100]="This script developed for 'ubuntu 24.04' and 'ubuntu 23.04'. please use Talka on these distros"
 T[101]="Checked: server os is ubuntu "
 
 # FUNCTIONS #
